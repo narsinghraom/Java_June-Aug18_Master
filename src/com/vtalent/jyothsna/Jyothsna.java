@@ -1,4 +1,4 @@
-package com.vtanlent.jyothsna;
+package com.vtalent.jyothsna;
 
 public class Jyothsna {
 
