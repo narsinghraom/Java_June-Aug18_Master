@@ -25,5 +25,9 @@ public class TeamA
 		runRate=teamScoresA/teamOvers;
 		System.out.println("the TeamA runrate is:"+runRate);
 	}
-
+	/*void disp3()
+	{
+		System.out.println("hiii");
+	}
+*/
 }
