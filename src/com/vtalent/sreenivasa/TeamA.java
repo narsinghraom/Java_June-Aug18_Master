@@ -11,23 +11,13 @@ public class TeamA
 	void disp()
 	{
 		Scanner s=new Scanner(System.in);
-		System.out.println("please enter the teamA name");
-		teamName=s.next();
-		System.out.println("enter the teamovers");
+		System.out.println("enter the overs played");
 		teamOvers=s.nextInt();
-		System.out.println("enter the teamscores");
-		teamScoresA=s.nextInt();
-		System.out.println("enter the teamwickets");
-		teamWicket=s.nextInt();
-	}
-	void runRates()
+		}
+	public float runRates()
 	{
-		runRate=teamScoresA/teamOvers;
-		System.out.println("the TeamA runrate is:"+runRate);
+		runRate=(float)teamScoresA/teamOvers;
+		return runRate;
+	
 	}
-	/*void disp3()
-	{
-		System.out.println("hiii");
-	}
-*/
 }
