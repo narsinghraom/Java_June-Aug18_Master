@@ -18,7 +18,7 @@ class TeamB {
 		int teamWickets;
 		double runRate;
 		double runRate(){
-			return runRate=(float)teamScore/teamOvers;
+			return runRate=(double)teamScore/teamOvers;
 		}
 	}
 
@@ -39,7 +39,7 @@ public class ODI_TEST {
 	b.teamName=s.nextLine();
 	
 	System.out.println("Welcome to ODI "+a.teamName+" v/s "+b.teamName);
-	System.out.println("1st Innings By Team India");
+	System.out.println("1st Innings By Team "+a.teamName);
 	
 	System.out.println("Enter the Overs played");	
 	a.teamOvers=s.nextInt();
@@ -48,16 +48,16 @@ public class ODI_TEST {
 	System.out.println("Enter the Wickets of "+a.teamName);
 	a.teamWickets=s.nextInt();
 	
-	System.out.println("India Score "+a.teamScore+"/"+a.teamWickets+" with Current RunRate:"+a.runRate());
+	System.out.println(a.teamName+"Score "+a.teamScore+"/"+a.teamWickets+" with Current RunRate:"+a.runRate());
 	System.out.println();
-	System.out.println("2nd Innings By Team Aus");
+	System.out.println("2nd Innings By Team "+b.teamName);
 	System.out.println("Enter the Overs played");
 	b.teamOvers=s.nextInt();
 	System.out.println("Enter The Score of "+b.teamName);
 	b.teamScore=s.nextInt();
 	System.out.println("Enter the Wickets of "+b.teamName);
 	b.teamWickets=s.nextInt();
-	System.out.println("India Score "+b.teamScore+"/"+b.teamWickets+" with Current RunRate:"+b.runRate());
+	System.out.println(b.teamName+"Score "+b.teamScore+"/"+b.teamWickets+" with Current RunRate:"+b.runRate());
 	if(a.teamScore>b.teamScore){
 		System.out.println(a.teamName+" Win by "+(a.teamScore-b.teamScore)+"runs");
 	}
