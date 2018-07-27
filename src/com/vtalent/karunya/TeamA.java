@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class TeamA {
 	String teamName;
 	double teamOvers;
-	double teamScore;
+	float teamScore;
 	long teamWickets;
-	float runrate;
+	double runrate;
 	void display()
 	{
 		Scanner s=new Scanner(System.in);
@@ -21,7 +21,14 @@ public class TeamA {
 		System.out.println("enter the team wickets:");
 		
 	}
-	
+	void runrate()
+	{
+		runrate=teamScore/teamOvers;
+		System.out.println("teamA runrate:"+runrate);
+	}
+	void disp1()
+	{
+	}
 	
 
 	
