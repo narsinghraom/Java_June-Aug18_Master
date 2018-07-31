@@ -6,8 +6,8 @@ public class TeamA
 {
 	String teamName;
 	int teamOvers;
-	int teamScoresA,teamWicket;
-	float runRate;
+	int teamScoresA,teamWicket=8;
+	int runRate=6;
 	void disp()
 	{
 		Scanner s=new Scanner(System.in);
@@ -16,8 +16,11 @@ public class TeamA
 		}
 	public float runRates()
 	{
-		runRate=(float)teamScoresA/teamOvers;
+		runRate=teamScoresA/teamOvers;
 		return runRate;
-	
+	}
+	public void disp1()
+	{  
+		teamScoresA=runRate*teamOvers;
 	}
 }
