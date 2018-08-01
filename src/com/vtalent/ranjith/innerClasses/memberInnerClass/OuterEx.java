@@ -6,11 +6,8 @@ public void function(int i){
 	System.out.println(this.i+i);//15
 }
 class InnerEx{
-	float f=1.5f;
-	void m1(int k){
-		System.out.println(k);
-	}
-	 void function(float f){
+	float f=1.5f;	
+	public void function(float f){
 		 OuterEx e=new OuterEx();
 		e.function((int)f);
 		 //function((int)f);
