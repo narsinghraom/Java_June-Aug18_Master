@@ -18,7 +18,7 @@ public class OuterExample
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		// TODO Auto-generated method stub
 /*OuterExample oe=new OuterExample();
 OuterExample.InnerExample oe1=oe.new InnerExample();*/
