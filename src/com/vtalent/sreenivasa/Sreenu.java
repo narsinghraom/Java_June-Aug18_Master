@@ -2,31 +2,13 @@ package com.vtalent.sreenivasa;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.Scanner;
 
-public class TeamA 
+public class Sreenu extends TeamA implements Serializable
 {
-	String teamName;
-	int teamOvers;
-	int teamScoresA,teamWicket=8;
-	int runRate=6;
-	void disp()
-	{
-		Scanner s=new Scanner(System.in);
-		System.out.println("enter the overs played");
-		teamOvers=s.nextInt();
-		}
-	public float runRates()
-	{
-		runRate=teamScoresA/teamOvers;
-		return runRate;
-	}
-	public void disp1()
-	{  
-		teamScoresA=runRate*teamOvers;
-	}
+
 	public static void doSerializable() throws Exception
 	{
 		FileOutputStream fos=new FileOutputStream("f:/mahi2.txt");
@@ -38,11 +20,22 @@ public class TeamA
 	{
 
 		FileInputStream fis=new FileInputStream("f:/mahi2.txt");
-		int ch;
+		ObjectInputStream oos=new ObjectInputStream(fis);
+		Object o=oos.readObject();
+	
+		TeamA s=(TeamA)o;
+		System.out.println(s);
+		/*int ch;
 		while((ch=fis.read())!=-1)
 		{
 			System.out.print((char)ch);
-		}
+		}*/
+		
+	}
+	public static void main(String[]args)throws Exception
+	{
+		doSerializable();
+		deSerializable();
 		
 	}
 }
