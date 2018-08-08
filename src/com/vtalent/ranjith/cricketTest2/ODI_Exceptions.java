@@ -1,6 +1,6 @@
 package com.vtalent.ranjith.cricketTest2;
 
-public class ODI_Exceptions {
+public class ODI_Exceptions  {
 
 	class WeatherException extends Exception {
 	
