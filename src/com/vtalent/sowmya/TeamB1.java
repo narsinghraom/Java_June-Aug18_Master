@@ -6,7 +6,7 @@ package com.vtalent.sowmya;
 		static int teamOvers;
 		static	int teamScore;
 		static int teamWickets;
-		static double runRate;
+		static float runRate;
 		
 
 	}

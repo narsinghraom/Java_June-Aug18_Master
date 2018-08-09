@@ -111,7 +111,7 @@ package com.vtalent.sowmya;
 			throw new ODI_Exceptions().new OversException1();
 		}
 		System.out.println("Enter The Run RATE of "+TeamB1.teamName);
-		TeamB1.runRate=s.nextDouble();
+		TeamB1.runRate=s.nextFloat();
 		TeamB1.teamScore=(int)(TeamB1.runRate*TeamB1.teamOvers);
 		System.out.println(TeamB1.teamName+" Score "+TeamB1.teamScore+"/"+wickets2()+" with Current RunRate:"+TeamB1.runRate);
 	}
