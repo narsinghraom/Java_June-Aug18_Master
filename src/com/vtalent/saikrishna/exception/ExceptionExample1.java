@@ -2,21 +2,25 @@ package com.vtalent.saikrishna.exception;
 
 import java.util.Scanner;
 
+//import java.util.Scanner;
+
 public class ExceptionExample1 
 {
 	String s1;
 	int[] i=new int[3];
 	int k=1;
-   public void function(String str) throws AgeException
+	Scanner s=new Scanner(System.in);
+   public void function() throws AgeException
 	{
-	   int i1=Integer.parseInt(str);
+	   System.out.println("enter age");
+	   int i1=s.nextInt();
 	   if(i1>24)
 	   {
-		   throw new AgeException("ur eligible");
+		   System.out.println("your eligible");
 	   }
 	   else
 	   {
-		   throw new AgeException("not eligible");
+		   throw new AgeException();
 	   }
 	  // int k1=k/i[0];
 	   //char ch=s1.charAt(0);
