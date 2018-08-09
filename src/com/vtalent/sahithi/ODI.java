@@ -12,7 +12,6 @@ public class ODI {
 		a.win();
 		s2.close();
 	}
-
 		
 	}
 	
