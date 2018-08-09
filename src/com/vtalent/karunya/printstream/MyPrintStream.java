@@ -1,8 +1,8 @@
 package com.vtalent.karunya.printstream;
 
 public class MyPrintStream {
-	MyPrintStream(MyOutputStream outstr){
-		{
+	MyPrintStream(OutputStream outstr){
+		
 			
 		}
 		public void println(int i){
@@ -15,4 +15,4 @@ public class MyPrintStream {
 
 	
 
-}
+
