@@ -27,7 +27,7 @@ public class TeamA
 	{  
 		teamScoresA=runRate*teamOvers;
 	}
-	public static void doSerializable() throws Exception
+	/*public static void doSerializable() throws Exception
 	{
 		FileOutputStream fos=new FileOutputStream("f:/mahi2.txt");
 		ObjectOutputStream oos=new ObjectOutputStream(fos);
@@ -44,5 +44,5 @@ public class TeamA
 			System.out.print((char)ch);
 		}
 		
-	}
+	}*/
 }
