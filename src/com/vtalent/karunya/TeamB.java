@@ -3,34 +3,30 @@ package com.vtalent.karunya;
 import java.util.Scanner;
 
 public class TeamB{
-		String teamName;
+		public String teamName;
 		int teamOvers;
 		int teamScoreB;
-		long teamWickets;
-		float runrate;
+		long teamWickets=10;
+		int runRate=8;
 		void display()
 		{
 			Scanner s=new Scanner(System.in);
-			System.out.println("enter the teamName:");
-			teamName=s.nextLine();
-			System.out.println("entr the teamOvers:");
+			System.out.println("enter the over played:");
 			teamOvers=s.nextInt();
-		    System.out.println("enter the team score:");
-			teamScoreB=s.nextInt();
-			System.out.println("enter the team wickets:");
-			teamWickets=s.nextInt();
-			
 		}
-		void runrate()
+		public float runRate()
 		{
-			runrate=teamScoreB/teamOvers;
+			runRate=teamScoreB/teamOvers;
 			System.out.println("enter the runrate:");
+			return runRate;
 		}
-		public void disp1() {
+		public void display1() {
 			// TODO Auto-generated method stub
+			teamScoreB=runRate*teamOvers;
 			
 		}
+}
 
 	
 	
-}
+
