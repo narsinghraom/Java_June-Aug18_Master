@@ -28,6 +28,4 @@ public class ODI_Exceptions {
 			return "Match is tie";
 		}
 	}
-
-
 }
