@@ -21,8 +21,6 @@ class TeamB {
 			return runRate=(double)teamScore/teamOvers;
 		}
 	}
-
-
 public class ODI_TEST {
 	public static void main(String[] args) {
 		

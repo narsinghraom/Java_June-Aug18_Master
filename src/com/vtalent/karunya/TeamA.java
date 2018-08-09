@@ -4,24 +4,25 @@ import java.util.Scanner;
 
 public class TeamA {
 	String teamName;
-	double teamOvers;
-	double teamScore;
-	long teamWickets;
-	float runrate;
-	void display()
+	int teamOvers;
+	int teamWickets=8;
+	int runRate=6;
+	int teamScoresA;
+    void disp()
 	{
 		Scanner s=new Scanner(System.in);
-		teamName=s.next();
-		System.out.println("enter the teamName:");
+		System.out.println("enter the oversplayed:");
 		teamOvers=s.nextInt();
-		System.out.println("entr the teamOvers:");
-		teamScore=s.nextInt();
-		System.out.println("enter the team score:");
-		teamWickets=s.nextInt();
-		System.out.println("enter the team wickets:");
-		
 	}
-	
+	public float runRate()
+	{
+		runRate=teamScoresA/teamOvers;
+		return runRate;
+	}
+	public void disp1()
+	{
+		teamScoresA=runRate*teamOvers;
+	}
 	
 
 	
