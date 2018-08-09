@@ -7,4 +7,5 @@ public class TeamB1 {
 	static int teamWickets;
 	static double runRate;
 
+
 }
