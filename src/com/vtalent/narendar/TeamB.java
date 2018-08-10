@@ -44,26 +44,24 @@ public class TeamB extends TeamA {
 	teamWicketsB=10;
 	System.out.println(teamScoreB+"/"+teamWicketsB);
 	}
-	else
-	{
 	if(teamScoreB>=300)
  	{
 	teamWicketsB=5;
 	System.out.println(teamScoreB+"/"+teamWicketsB);
 	}
-if(teamScoreB<300&&teamScoreB>250)
+	if(teamScoreB<300&&teamScoreB>250)
 	{
 	teamWicketsB=6;
 	System.out.println(teamScoreB+"/"+teamWicketsB);
     }
 if(teamScoreB<250&&teamScoreB>200)
 	{
-	teamWicketsA=7;
+	teamWicketsB=7;
 	System.out.println(teamScoreB+"/"+teamWicketsB);
 	}
-if(teamScoreA<200)
+if(teamScoreB<200)
 	{
-	teamWicketsA=7;
+	teamWicketsB=4;
 	System.out.println(teamScoreB+"/"+teamWicketsB);
 	}
 	
@@ -72,4 +70,4 @@ if(teamScoreA<200)
 	
 	}
 	}
-}}
+}
