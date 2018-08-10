@@ -1,7 +1,8 @@
 package com.vtalent.narendar;
 
 import java.util.Scanner;
-public class TeamB {
+
+public class TeamB extends TeamA {
 	public String teamNameB;
 	float teamOversB;
 	int teamScoreB;
@@ -22,7 +23,7 @@ public class TeamB {
 	
 	try{
 	if(teamOversB>50){
-		throw new OversException();
+		throw new ODIException().new OversException();
 	}}
 	catch(Exception e)
 	{
@@ -36,38 +37,39 @@ public class TeamB {
 	float runrate=sc1.nextFloat();
 	teamScoreB=(int)(runrate*teamOversB);
 	
+	
 	if(teamOversB<50)
 	{
 	teamScoreB=(int)(runrate*teamOversB);
 	teamWicketsB=10;
 	System.out.println(teamScoreB+"/"+teamWicketsB);
 	}
-	
-	else {
-
-if(teamScoreB>=300)
-	 	{
-		teamWicketsB=5;
-		System.out.println(teamScoreB+"/"+teamWicketsB);
-	 	}
+	else
+	{
+	if(teamScoreB>=300)
+ 	{
+	teamWicketsB=5;
+	System.out.println(teamScoreB+"/"+teamWicketsB);
+	}
 if(teamScoreB<300&&teamScoreB>250)
-		{
-		teamWicketsB=6;
-	    System.out.println(teamScoreB+"/"+teamWicketsB);
-		}
+	{
+	teamWicketsB=6;
+	System.out.println(teamScoreB+"/"+teamWicketsB);
+    }
 if(teamScoreB<250&&teamScoreB>200)
-		
-		teamWicketsB=7;
-		System.out.println(teamScoreB+"/"+teamWicketsB);
-		}
-if(teamScoreB<200)
-		{
-		teamWicketsB=7;
-		System.out.println(teamScoreB+"/"+teamWicketsB);
+	{
+	teamWicketsA=7;
+	System.out.println(teamScoreB+"/"+teamWicketsB);
 	}
-
-	}
+if(teamScoreA<200)
+	{
+	teamWicketsA=7;
+	System.out.println(teamScoreB+"/"+teamWicketsB);
 	}
 	
+	 
+	
+	
 	}
-
+	}
+}}
