@@ -9,6 +9,9 @@ public class BufferReader {
 		String id=br.readLine();
 		System.out.println("enter salary");
 		String salary=br.readLine();
+		
+		
+		
 		double salaryval=Double.parseDouble(salary);
 		System.out.println("id="+id+ "salary="+salaryval);
 		
