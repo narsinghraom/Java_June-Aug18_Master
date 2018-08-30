@@ -1,19 +1,21 @@
 package com.vtalent.prasad;
 
-class Ananymous Example {
+class AnanymousExample{
 
-		public void function(Example1(e)){
+		public void function(AnanymousExample(e){
 			e.function(5);
 			
 		}
 	public static void main(String args[]){
-		Ananymous ae=new Ananymous();
-		ae.function one(new Example1()){
+		AnanymousExample ae=new AnanymousExample();
+	}	
+		ae.function(new Example()){
 			public void function(int i){
 				System.out.println(i);
-			}
+			
 	
-	}
+	
 
-
+		}
 });
+}
