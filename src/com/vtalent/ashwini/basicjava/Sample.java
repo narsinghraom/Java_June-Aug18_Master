@@ -21,5 +21,8 @@ public class Sample
 		s1.l2=(long)s1.functionOne((double)l1,(double)l2);
 				return s1;
 	}
+	public static void main(String[] args) {
+		System.out.println();
+	}
 	
 }
