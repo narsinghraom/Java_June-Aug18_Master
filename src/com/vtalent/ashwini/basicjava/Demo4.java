@@ -6,6 +6,8 @@ public class Demo4 {
 	{
 		System.out.println("this is for demo4 class");
 
+		System.out.println("modefied by ravi");
+
 		System.out.println("welcome");
 	}
 
