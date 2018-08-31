@@ -14,6 +14,8 @@ System.out.println(len);
 char ch = s1.charAt(2);
 System.out.println(ch);
 s3= s1.concat(s2);
+System.out.println("this is changed by ashwini");
+System.out.println("....................");
 System.out.println(s3);
 System.out.println(s1.toLowerCase());
 System.out.println(s2.toUpperCase());
