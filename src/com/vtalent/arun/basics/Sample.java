@@ -13,6 +13,9 @@ public class Sample {
 		this.d2=this.d1+d2;
 		return d1+d2;
 	}
+	public void fucntion(int a,int b){
+		
+	}
 public static Sample functionTwo(long l1)
 {
 	Sample s1=new Sample();
