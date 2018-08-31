@@ -21,6 +21,10 @@ public static Sample functionTwo(long l1)
 	return s1;
 			
 }
+public void sum()
+{
+	System.out.println("hi...........");
+}
 public static void main(String[] args) {
 	Sample s1=functionTwo(5);
 	System.out.println(s1.d1);
