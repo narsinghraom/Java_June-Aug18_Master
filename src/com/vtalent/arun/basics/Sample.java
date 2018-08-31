@@ -7,10 +7,11 @@ package com.vtalent.arun.basics;
 public class Sample {
 	static long l1,l2;
 	double d1,d2;
+	int a,b;
 	public double functionOne(double d1,double d2)
 	{
-		this.d1=d1+d2;
-		this.d2=this.d1+d2;
+		this.d1=a+d2;
+		this.d2=this.d1+b;
 		return d1+d2;
 	}
 	public void fucntion(int a,int b){
