@@ -13,7 +13,6 @@ public static Sample functiontwo(long l1){
 	s1.l2=(long)s1.functionone((double)l1,(double)l2);
 	return s1;
 }
-
 public static void main(String[] args) {
 	Sample s1=functiontwo(5);
 	System.out.println(s1.d1);
@@ -21,7 +20,7 @@ public static void main(String[] args) {
 	System.out.println(l1);
 	System.out.println(l2);
 	System.out.println();
-
+System.out.println("ravis");
 }
 
 }
