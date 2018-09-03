@@ -6,6 +6,8 @@ public class Array
 	float[] f;
 	public float[] function(int[]i)
 	{
+		f=new float[i.length];
+		for(int k=0;k<=i.length-1;k++)
 		{
 			f[k]=i[k];
 		}
