@@ -6,6 +6,11 @@ public class Array
 	float[] f;
 	public float[] function(int[]i)
 	{
+<<<<<<< HEAD
+=======
+		f=new float[i.length];
+		for(int k=0;k<=i.length-1;k++)
+>>>>>>> bb7c5a05b70bb94e9cfc05133d7c3409a810af43
 		{
 			f[k]=i[k];
 		}
