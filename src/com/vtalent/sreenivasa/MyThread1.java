@@ -15,6 +15,7 @@ public class MyThread1 implements Runnable
 		MyThread1 t=new MyThread1();
 		Thread t1=new Thread(t);
 		t1.start();
+	
 		/*Thread t2=new Thread(new MyThread1());
 		t2.start();*/
 

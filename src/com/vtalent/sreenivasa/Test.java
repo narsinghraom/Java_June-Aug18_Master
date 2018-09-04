@@ -13,6 +13,17 @@ public class Test
 		MySystem.out.println(f);
 		char ch='s';
 		MySystem.out.println(ch);
+	
+		/*try{
+			System.out.println("hhh");
+			System.exit(0);
+		}catch(ArithmeticException ae)
+		{ae.printStackTrace();}
+		finally
+		{
+			System.out.println("hiii");
+		}*/
+		
 	}
 
 }
