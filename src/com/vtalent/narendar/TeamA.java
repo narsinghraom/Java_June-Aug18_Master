@@ -2,20 +2,29 @@ package com.vtalent.narendar;
 
 import java.util.Scanner;
 
-class OversException extends Exception
-
-{
-	
-	public String toString(){
-		return "Overs should not be greater thn 50";
-	}
-}
 public class TeamA {
 	public String teamNameA;
 	float teamOversA;
 	int teamScoreA;
 	int teamWicketsA;
+	int count=0;
 	
+	void weather() throws Exception
+	{
+		System.out.println("Is it raining?(yes/no)");
+		Scanner s=new Scanner(System.in);
+		String s1= s.next();
+		if(s1.equals("yes"))
+		{
+			count++;
+			Thread.sleep(1000);
+			if(count==2){ 			
+				throw new ODIException().new WeatherException();			
+			}
+			weather(); 		 
+		
+	}
+	}
 	public void teamName()
 	{
 	System.out.println("enter team A name");
@@ -30,9 +39,11 @@ public class TeamA {
 	teamOversA=sc.nextFloat();
 	
 	try{
-	if(teamOversA>50){
-		throw new OversException();
-	}}
+	if(teamOversA>50)
+	{
+		throw new ODIException().new OversException();
+				
+		}}
 	catch(Exception e)
 	{
 		System.out.println("overs should not be greater than 50");
