@@ -1,6 +1,4 @@
 package com.vtalent.sowmya;
-
-
 	import java.util.Scanner;
     class TeamA1 {
 	static String teamName;
