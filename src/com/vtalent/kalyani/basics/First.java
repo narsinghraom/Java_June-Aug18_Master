@@ -18,3 +18,14 @@ class second extends First
 		super.i=super.i+i;
 	}
 }
+class Third extends second
+{
+	int i, j;
+	public void function(int i, int j)
+	{
+		this.i=i+j;
+		super.i=super.i+this.i;
+	}
+	
+	
+}
