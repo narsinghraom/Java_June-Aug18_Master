@@ -8,7 +8,7 @@ public class First{
 			
 		}
 	}
-	class Second extends First{
+	class Secondary extends First{
 		int i,j;
 		public void function(int i,int j){
 			this.j=j+i;
