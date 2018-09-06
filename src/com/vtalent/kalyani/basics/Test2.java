@@ -17,7 +17,7 @@ public class Test2 {
 
 				
 				
-		 s=new Third1();
+		s=new Third1();
 		 s.function(2);
 		 s.function(10, 20);
 		
