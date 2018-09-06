@@ -1,7 +1,8 @@
 package com.vtalent.kalyani.basics;
 
 public class First {
-	int i, j;
+	public int i;
+	int j;
 	public void function(int i)
 	{
 		this.i=i+i;
