@@ -15,7 +15,8 @@ public class Test3 {
 
 		
 	// t= new First1();
-	t.function(2);
+		t.function(2);
+
 		/*Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 			Type mismatch: cannot convert from First1 to Third1
 
