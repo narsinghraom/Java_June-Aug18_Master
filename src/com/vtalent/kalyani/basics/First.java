@@ -3,6 +3,7 @@ package com.vtalent.kalyani.basics;
 public class First {
 	public int i;
 	int j;
+	static int k;
 	public void function(int i)
 	{
 		this.i=i+i;
@@ -11,6 +12,7 @@ public class First {
 }
 class second extends First
 {
+
 	int i,j;
 	public void function(int i, int j)
 	{
@@ -26,6 +28,5 @@ class Third extends second
 		this.i=i+j;
 		super.i=super.i+this.i;
 	}
-	
-	
 }
+
