@@ -12,6 +12,7 @@ class Singleton
 	// private constructor restricted to this class itself 
 	private Singleton() 
 	{ 
+		System.out.println("hi .......... this is singleton");
 		s = "Hello I am a string part of Singleton class"; 
 	} 
 
