@@ -3,7 +3,7 @@ package com.vtalent.ashwini.basicjava;
 
  class StaticParent 
 {
-	 private void Sum()
+	 protected void Sum()
 	 {
 		 System.out.println("this is private sum");
 	 }
@@ -25,7 +25,7 @@ public class StaticChild extends StaticParent
 		StaticChild s=new StaticChild();
 		//s.sum();
 		StaticParent p=new StaticParent();
-		p.sum();
+		p.Sum();
 		
 	}
 }
