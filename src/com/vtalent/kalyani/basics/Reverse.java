@@ -17,6 +17,7 @@ public class Reverse {
 			    int temp = my[i];
 			    my[i] = my[a- i - 1];
 			    my[a - i - 1] = temp;
+			    System.out.println(temp);
 			  }
 			    System.out.println("Reverse array : "+Arrays.toString(my));
 			 }
