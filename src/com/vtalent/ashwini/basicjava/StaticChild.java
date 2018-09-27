@@ -25,8 +25,8 @@ public class StaticChild extends StaticParent
 		StaticChild s=new StaticChild();
 		//s.sum();
 		StaticParent p=new StaticParent();
-		p.sum();
-		
+		s.sum();
+			
 	}
 }
 
