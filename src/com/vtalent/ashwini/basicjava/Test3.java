@@ -4,6 +4,7 @@ package com.vtalent.ashwini.basicjava;
 public class Test3 
 {
 		static Test3 obj=new Test3();
+		static Test3 obj1=new Test3();
 		static 
 		{
 			System.out.println("this is in static blocks");
@@ -18,7 +19,7 @@ public class Test3
 			System.out.println("this is sooo fun of trying");
 		}
 		
-		static Test3 obj1=new Test3();
+		
 		
 		public static void main(String[] args)
 		{
