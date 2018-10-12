@@ -11,6 +11,7 @@ public class Outer {
 			
 			System.out.println(x);
 			System.out.println(this.x);
+			System.out.println(Inner.this.x);
 			System.out.println(Outer.this.x);
 		}
 	}
