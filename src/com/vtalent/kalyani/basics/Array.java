@@ -1,4 +1,4 @@
-package com.vtalent.kalyani.basics;
+package kalyani.basics;
 
 public class Array
 {
