@@ -1,5 +1,5 @@
 package com.vtalent.kalyani.basics;
-class A
+class A1
 {
 	int a;
 	int b;
@@ -20,7 +20,7 @@ class A
 		return a+this.a;
 	}
 }
-class B extends A
+class B extends A1
 {
 	int a=10;
 	int b;

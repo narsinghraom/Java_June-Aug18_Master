@@ -11,15 +11,18 @@ import java.io.Serializable;
 
 
 public class SerializationExample implements Serializable{
-	
 	int empid;
 	String empname;
 	double empsalary;
+	int adress;
+	
 	public static void doserialization()throws Exception{
 		SerializationExample emp=new SerializationExample();
 		emp.empid=200;
 		emp.empname="kalyani";
 		emp.empsalary=25000.00;
+		emp.adress=123;
+		
 		//final long serialVersionUID=1L;
 		File file=new File("‪C:\\Users\\Ram\\Desktop\\asu.txt");						//cerating file
 		FileOutputStream fos=new FileOutputStream(file);			 //reading file
@@ -48,6 +51,7 @@ public class SerializationExample implements Serializable{
 		System.out.println("id"+emp.empid);
 		System.out.println("name"+emp.empname);
 		System.out.println("salary"+emp.empsalary);
+		System.out.println("adress"+emp.adress);
 	}
 	
 	
@@ -69,6 +73,7 @@ public class SerializationExample implements Serializable{
 		emp.empid = 200;
 		emp.empname = "kalyani";
 		emp.empsalary = 25000.00;
+		emp.adress=123;
 		File file = new File("D:\\cfg.txt");
 		 
 		//Create the file

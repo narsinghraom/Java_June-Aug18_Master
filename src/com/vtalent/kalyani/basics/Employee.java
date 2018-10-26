@@ -32,7 +32,4 @@ public class Employee {
 		this.employeeDepartment = employeeDepartment;
 	}
 	
-	
-		
-
 }
